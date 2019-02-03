@@ -6,10 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="WebDilaz, ThemeDilaz, CodeDilaz">
-<title>ItemName Documentation</title>
-<link href="assets/bootstrap.min.css" rel="stylesheet">
-<link href="assets/simple-scrollbar.css" rel="stylesheet">
-<link href="assets/docs.css" rel="stylesheet">
+<title>Item Name Documentation</title>
+<link rel="stylesheet" href="assets/bootstrap.min.css">
+<link rel="stylesheet" href="assets/simple-scrollbar.css">
+<link rel="stylesheet" href="assets/vs.css">
+<link rel="stylesheet" href="assets/docs.css">
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
@@ -17,8 +18,8 @@
 
 	<!-- Header -->
 	<!-- ================================================== -->
-	<header class="jumbotron no-b-r container-fluid header" id="overview">
-		<div class="col-xs-12 no-p">
+	<header class="jumbotron rounded-0 container-fluid header" id="overview">
+		<div class="col-xs-12 p-0">
 			<h1>ITEM NAME</h1>
 			<h4>Short Item Title Description</h4>
 			<p class="lead">Thank you for buying and using our software! ;-)</p>
@@ -38,11 +39,11 @@
 	<!-- ================================================== -->
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+			<div class="col-sm-9 ml-sm-auto col-md-10 main" role="main">
 			
 				<!-- Section 1 -->
 				<!-- ================================================== -->
-				<section id="section-1" data-section-color="#35ae37" data-menu-name="Section 1">
+				<section data-section-color="#35ae37" data-menu-name="Section 1">
 				
 					<div class="section-content">
 							
@@ -64,9 +65,9 @@
 				
 				<!-- Section 2 -->
 				<!-- ================================================== -->
-				<section id="section-2" data-section-color="#308fbe" data-menu-name="Section 2">
+				<section data-section-color="#308fbe" data-menu-name="Section 2">
 				
-					<div id="sec-2-subsection-1" class="section-content" data-section-nav-name="Subsection 1">
+					<div class="section-content" data-section-nav-name="Subsection 1">
 					
 						<h2>Subsection 1</h2>
 						
@@ -83,7 +84,7 @@
 						
 					</div><!-- /.section-content -->
 					
-					<div id="sec-2-subsection-2" class="section-content" data-section-nav-name="Subsection 2">
+					<div class="section-content" data-section-nav-name="Subsection 2">
 				
 						<h2>Subsection 2</h2>
 						
@@ -128,7 +129,7 @@
 						
 					</div><!-- /.section-content -->
 					
-					<div id="sec-2-subsection-3" class="section-content" data-section-nav-name="Subsection 3">
+					<div class="section-content" data-section-nav-name="Subsection 3">
 					
 						<h2>Subsection 3</h2>
 						
@@ -151,7 +152,7 @@
 						
 					</div><!-- /.section-content -->
 					
-					<div id="sec-2-subsection-4" class="section-content" data-section-nav-name="Subsection 4">
+					<div class="section-content" data-section-nav-name="Subsection 4">
 				
 						<h2>Subsection 4</h2>
 						
@@ -176,7 +177,7 @@
 				
 				<!-- Section 3 -->
 				<!-- ================================================== -->	
-				<section id="section-3" data-section-color="#c63f3d" data-menu-name="Section 3">
+				<section data-section-color="#c63f3d" data-menu-name="Section 3">
 				
 					<div class="section-content">
 				
@@ -197,7 +198,7 @@
 				
 				<!-- Section 4 -->
 				<!-- ================================================== -->
-				<section id="section-4" data-section-color="#f89406" data-menu-name="Section 4">
+				<section data-section-color="#f89406" data-menu-name="Section 4">
 				
 					<div class="section-content">
 					
@@ -207,31 +208,34 @@
 
 						<p>Quis non odit sordidos, vanos, leves, futtiles? Cave putes quicquam esse verius. Falli igitur possumus. <code>Sin aliud quid voles, postea.</code> </p>
 
-						<pre>$heroes = array(
-'luke' => array(
-	'full_name'   => 'Luke Skywalker',
-	'home_planet' => 'Tatooine',
-	'trope'       => 'Unlikely Hero',
+						<pre><code class="php">&#x3C;?php
+
+$heroes = array(
+&#x27;luke&#x27; =&#x3E; array(
+&#x9;&#x27;full_name&#x27;   =&#x3E; &#x27;Luke Skywalker&#x27;,
+&#x9;&#x27;home_planet&#x27; =&#x3E; &#x27;Tatooine&#x27;,
+&#x9;&#x27;trope&#x27;       =&#x3E; &#x27;Unlikely Hero&#x27;,
 ),
-'leia' => array(
-	'full_name'   => 'Leia Organa',
-	'home_planet' => 'Alderaan',
-	'trope'       => 'Badass Princess',
+&#x27;leia&#x27; =&#x3E; array(
+&#x9;&#x27;full_name&#x27;   =&#x3E; &#x27;Leia Organa&#x27;,
+&#x9;&#x27;home_planet&#x27; =&#x3E; &#x27;Alderaan&#x27;,
+&#x9;&#x27;trope&#x27;       =&#x3E; &#x27;Badass Princess&#x27;,
 ),
-'han' => array (
-	'full_name'   => 'Han Solo',
-	'home_planet' => 'Corell',
-	'trope'       => 'Lovable Rouge',
+&#x27;han&#x27; =&#x3E; array (
+&#x9;&#x27;full_name&#x27;   =&#x3E; &#x27;Han Solo&#x27;,
+&#x9;&#x27;home_planet&#x27; =&#x3E; &#x27;Corell&#x27;,
+&#x9;&#x27;trope&#x27;       =&#x3E; &#x27;Lovable Rouge&#x27;,
 ),
 );
-echo $heroes['luke']['full_name'];</pre>
+echo $heroes[&#x27;luke&#x27;][&#x27;full_name&#x27;];
+
+?&#x3E;</code></pre>
 
 						<p>Certe, nisi voluptatem tanti aestimaretis. An tu me de L. Itaque hic ipse iam pridem est reiectus; Nos cum te, M. </p>
 						
 					</div><!-- /.section-content -->
 					
 				</section><!-- /section -->
-
 				
 			</div><!-- /.main -->
 		</div><!-- /.row -->
@@ -240,7 +244,7 @@ echo $heroes['luke']['full_name'];</pre>
 	
 	<!-- Footer -->
 	<!-- ================================================== -->
-	<footer class="footer col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2">
+	<footer class="footer col-sm-9 ml-sm-auto col-md-10">
 		<div class="footer-wrapper">
 			<p class="pull-right to-top"><a href="#overview">Back to top</a></p>
 			<p>&copy; <span class="yr-cr"></span> <a href="http://bizname.com/">BusinessName</a>. All Rights Reserved. </p>
@@ -250,6 +254,8 @@ echo $heroes['luke']['full_name'];</pre>
 	
 	<script src="assets/jquery-2.1.4.min.js"></script>
 	<script src="assets/simple-scrollbar.min.js"></script>
+	<script src="assets/highlight.pack.js"></script>
 	<script src="assets/scripts.js"></script>
+	
 </body>
 </html>
