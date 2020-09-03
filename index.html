@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="author" content="Rodgath">
-<title>Item Name Documentation</title>
-<link rel="stylesheet" href="assets/bootstrap.min.css">
-<link rel="stylesheet" href="assets/simple-scrollbar.css">
-<link rel="stylesheet" href="assets/vs.css">
-<link rel="stylesheet" href="assets/docs.css">
-<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Product Documentation">
+	<meta name="author" content="Rodgath">
+	<title>Item Name Documentation</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/simple-scrollbar.css">
+	<link rel="stylesheet" href="assets/css/code-theme-dark.css">
+	<link rel="stylesheet" href="assets/css/docs.css">
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
-<body>
+<body class="oc-menu-push">
 
 
 	<!-- Header -->
@@ -39,11 +39,12 @@
 	<!-- ================================================== -->
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-sm-9 ml-sm-auto col-md-10 main" role="main">
+			<div class="col-sm-12 ml-sm-auto col-md-9 col-xl-10 main" role="main">
+			
 			
 				<!-- Section 1 -->
 				<!-- ================================================== -->
-				<section data-section-color="#35ae37" data-menu-name="Section 1">
+				<section data-menu-name="Section 1" data-section-color="#35ae37">
 				
 					<div class="section-content">
 							
@@ -63,9 +64,10 @@
 					
 				</section><!-- /section -->
 				
+				
 				<!-- Section 2 -->
 				<!-- ================================================== -->
-				<section data-section-color="#308fbe" data-menu-name="Section 2">
+				<section data-menu-name="Section 2" data-section-color="#308fbe">
 				
 					<div class="section-content" data-section-nav-name="Subsection 1">
 					
@@ -125,7 +127,7 @@
 							<li>Quae cum essent dicta <strong>Integritas</strong> debilitas</li>
 						</ol>
 						
-						<div class="alert alert-info">Quamquam tu hanc: <a href="https://github.com/Rodgath/" target="_blank">copiosiorem etiam soles dicere</a></div>
+						<div class="alert alert-info">Quamquam tu hanc: <a href="http://github.com/Rodgath" target="_blank">copiosiorem etiam soles dicere</a></div>
 						
 					</div><!-- /.section-content -->
 					
@@ -175,9 +177,10 @@
 					
 				</section><!-- /section -->
 				
+				
 				<!-- Section 3 -->
 				<!-- ================================================== -->	
-				<section data-section-color="#c63f3d" data-menu-name="Section 3">
+				<section data-menu-name="Section 3" data-section-color="#c63f3d">
 				
 					<div class="section-content">
 				
@@ -196,9 +199,10 @@
 					
 				</section><!-- /section -->
 				
+				
 				<!-- Section 4 -->
 				<!-- ================================================== -->
-				<section data-section-color="#f89406" data-menu-name="Section 4">
+				<section data-menu-name="Section 4" data-section-color="#f89406">
 				
 					<div class="section-content">
 					
@@ -209,25 +213,25 @@
 						<p>Quis non odit sordidos, vanos, leves, futtiles? Cave putes quicquam esse verius. Falli igitur possumus. <code>Sin aliud quid voles, postea.</code> </p>
 
 						<pre><code class="php">&#x3C;?php
-
+						
 $heroes = array(
-&#x27;luke&#x27; =&#x3E; array(
-&#x9;&#x27;full_name&#x27;   =&#x3E; &#x27;Luke Skywalker&#x27;,
-&#x9;&#x27;home_planet&#x27; =&#x3E; &#x27;Tatooine&#x27;,
-&#x9;&#x27;trope&#x27;       =&#x3E; &#x27;Unlikely Hero&#x27;,
-),
-&#x27;leia&#x27; =&#x3E; array(
-&#x9;&#x27;full_name&#x27;   =&#x3E; &#x27;Leia Organa&#x27;,
-&#x9;&#x27;home_planet&#x27; =&#x3E; &#x27;Alderaan&#x27;,
-&#x9;&#x27;trope&#x27;       =&#x3E; &#x27;Badass Princess&#x27;,
-),
-&#x27;han&#x27; =&#x3E; array (
-&#x9;&#x27;full_name&#x27;   =&#x3E; &#x27;Han Solo&#x27;,
-&#x9;&#x27;home_planet&#x27; =&#x3E; &#x27;Corell&#x27;,
-&#x9;&#x27;trope&#x27;       =&#x3E; &#x27;Lovable Rouge&#x27;,
-),
+	'luke' => array(
+		'full_name'   => 'Luke Skywalker',
+		'home_planet' => 'Tatooine',
+		'trope'       => 'Unlikely Hero',
+	),
+	'leia' => array(
+		'full_name'   => 'Leia Organa',
+		'home_planet' => 'Alderaan',
+		'trope'       => 'Badass Princess',
+	),
+	'han' => array (
+		'full_name'   => 'Han Solo',
+		'home_planet' => 'Corell',
+		'trope'       => 'Lovable Rouge',
+	),
 );
-echo $heroes[&#x27;luke&#x27;][&#x27;full_name&#x27;];
+echo $heroes['luke']['full_name'];
 
 ?&#x3E;</code></pre>
 
@@ -237,6 +241,7 @@ echo $heroes[&#x27;luke&#x27;][&#x27;full_name&#x27;];
 					
 				</section><!-- /section -->
 				
+				
 			</div><!-- /.main -->
 		</div><!-- /.row -->
 	</div><!-- /.container-fluid -->
@@ -244,7 +249,7 @@ echo $heroes[&#x27;luke&#x27;][&#x27;full_name&#x27;];
 	
 	<!-- Footer -->
 	<!-- ================================================== -->
-	<footer class="footer col-sm-9 ml-sm-auto col-md-10">
+	<footer class="footer col-sm-12 ml-sm-auto col-md-9 col-xl-10">
 		<div class="footer-wrapper">
 			<p class="pull-right to-top"><a href="#overview">Back to top</a></p>
 			<p>&copy; <span class="yr-cr"></span> <a href="http://bizname.com/">BusinessName</a>. All Rights Reserved. </p>
@@ -252,10 +257,9 @@ echo $heroes[&#x27;luke&#x27;][&#x27;full_name&#x27;];
 	</footer>
 	
 	
-	<script src="assets/jquery-2.1.4.min.js"></script>
-	<script src="assets/simple-scrollbar.min.js"></script>
-	<script src="assets/highlight.pack.js"></script>
-	<script src="assets/scripts.js"></script>
+	<script src="assets/js/jquery-2.1.4.min.js"></script>
+	<script src="assets/js/plugins.js"></script>
+	<script src="assets/js/scripts.js"></script>
 	
 </body>
 </html>
