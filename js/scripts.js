@@ -97,7 +97,7 @@ jQuery(document).ready(function($) {
 				docSecContent.append('<div class="back-to-section-nav" style="background-color:'+docSecColor+'"><a class="back-to-sec-nav" href="#'+docSecNavId+'" title="Back to Section Navigation"></a></div>');
 			}
 			
-			$('.container-fluid').find('.sidebar .flex-column').append('<li class="nav-item"><a class="nav-link p-2" href="#'+docSecId+'"><span class="nav-label" style="background-color:'+docSecColor+'">'+iWithZeros+'</span>'+docSecMenu+'</a></li>');
+			$('main').find('.sidebar .flex-column').append('<li class="nav-item"><a class="nav-link p-2" href="#'+docSecId+'"><span class="nav-label" style="background-color:'+docSecColor+'">'+iWithZeros+'</span>'+docSecMenu+'</a></li>');
 			
 			$('#oc-menu .flex-column').append('<li class="nav-item"><a class="nav-link p-2" href="#'+docSecId+'"><span class="nav-label" style="background-color:'+docSecColor+'">'+iWithZeros+'</span>'+docSecMenu+'</a></li>');
 			
