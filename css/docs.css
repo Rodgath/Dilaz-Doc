@@ -57,7 +57,6 @@ hr {
 }
 dl {
 	background: #f5f5f5;
-    border: 3px double #ccc;
     padding: 10px 15px;
 }
 dt::after {
