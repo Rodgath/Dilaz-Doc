@@ -394,6 +394,11 @@ img {
 	position: relative;
 	padding: 40px 20px 40px 60px;
 }
+.section-content[data-section-nav-name] .section-content-wrap > h2 {
+	font-size: 31px;
+	color: #353535;
+	line-height: 1.5
+}
 .header {
 	position: relative;
 	display: block
