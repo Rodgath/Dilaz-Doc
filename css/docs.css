@@ -48,11 +48,6 @@ section dt, section dd {
 section dd {
 	margin-left:0;
 }
-section h3 {
-}
-section h5 {
-	font-size:15px;
-}
 pre,code {
 	overflow:auto;
 	white-space:pre!important;
