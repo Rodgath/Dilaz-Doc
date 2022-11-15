@@ -135,7 +135,7 @@ jQuery(document).ready(function($) {
 			$('html, body').stop().animate({
 				scrollTop: $(c).offset().top - 0
 			}, {
-				duration: 1200,
+				duration: 380,
 				easing: 'easeInOutExpo'
 			});
 			e.preventDefault();
