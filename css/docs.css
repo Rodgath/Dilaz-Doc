@@ -31,7 +31,7 @@ section p {
 	margin-bottom:15px;
 }
 section p, section li {
-	font-size:1rem;
+	font-size:0.96rem;
 	line-height:24px;
 }
 section > ul, section > ol {
