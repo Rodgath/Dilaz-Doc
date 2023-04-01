@@ -1,5 +1,5 @@
 /* sticky sidebar */
-@import url(http://fonts.googleapis.com/css?family=Raleway:700);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&display=swap');
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
 body {
 	font-family: 'Source Sans Pro', Helvetica, Arial, 'sans-serif';
@@ -7,7 +7,7 @@ body {
 
 /* text */
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Raleway', Helvetica, Arial, 'sans-serif' !important;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif !important;
 }
 h1, h2 {
 	font-weight:bold;
